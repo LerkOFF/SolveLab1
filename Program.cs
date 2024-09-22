@@ -1,6 +1,7 @@
 ﻿using SolveLabs.Labs.Lab1;
 using SolveLabs.Labs.Lab2;
 using SolveLabs.Labs.Lab3;
+using SolveLabs.Labs.Lab4;
 
 namespace SolveLabs
 {
@@ -15,6 +16,7 @@ namespace SolveLabs
                 Console.WriteLine("1. Лабораторная работа 1");
                 Console.WriteLine("2. Лабораторная работа 2");
                 Console.WriteLine("3. Лабораторная работа 3");
+                Console.WriteLine("4. Лабораторная работа 4");
                 Console.WriteLine("0. Выход");
                 Console.Write("Ваш выбор: ");
 
@@ -31,6 +33,9 @@ namespace SolveLabs
                         break;
                     case "3":
                         Lab3.Execute();
+                        break;
+                    case "4":
+                        Lab4.Execute();
                         break;
                     case "0":
                         Console.WriteLine("Выход из программы.");
