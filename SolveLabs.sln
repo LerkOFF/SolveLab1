@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveLab1", "SolveLab1\SolveLab1.csproj", "{C6B5DDBC-6A3A-4506-BE32-CB51A4F78304}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveLabs", "SolveLabs.csproj", "{C6B5DDBC-6A3A-4506-BE32-CB51A4F78304}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

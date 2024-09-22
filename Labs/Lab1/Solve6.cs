@@ -1,7 +1,4 @@
-using System;
-using System.Linq;
-
-namespace SolveLab1
+namespace SolveLabs.Labs.Lab1
 {
     public static class Solve6
     {

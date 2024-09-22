@@ -1,6 +1,4 @@
-using System;
-
-namespace SolveLab1
+namespace SolveLabs.Labs.Lab1
 {
     public static class Solve9
     {

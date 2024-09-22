@@ -1,8 +1,10 @@
-﻿namespace SolveLab1
+using System;
+
+namespace SolveLabs.Labs.Lab1
 {
-    class Program
+    public static class Lab1
     {
-        static void Main(string[] args)
+        public static void Execute()
         {
             while (true)
             {
@@ -19,7 +21,7 @@
                 Console.WriteLine("9. Solve9");
                 Console.WriteLine("10. Solve10");
                 Console.WriteLine("11. Solve11");
-                Console.WriteLine("0. Выход");
+                Console.WriteLine("0. Назад в главное меню");
                 Console.Write("Ваш выбор: ");
 
                 string choice = Console.ReadLine();
@@ -61,7 +63,7 @@
                         Solve11.Execute();
                         break;
                     case "0":
-                        Console.WriteLine("Выход из программы.");
+                        Console.WriteLine("Возврат в главное меню.");
                         return;
                     default:
                         Console.WriteLine("Неверный выбор. Пожалуйста, попробуйте снова.");

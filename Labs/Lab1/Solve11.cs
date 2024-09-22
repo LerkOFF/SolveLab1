@@ -1,6 +1,4 @@
-using System;
-
-namespace SolveLab1
+namespace SolveLabs.Labs.Lab1
 {
     public static class Solve11
     {
@@ -49,7 +47,7 @@ namespace SolveLab1
 
             // Вычисление первой формулы f
             double f = Math.Log(a + Math.Pow(x, 2)) + Math.Pow(Math.Sin(x / b), 2);
-            Console.WriteLine($"Значение f: {f}");
+            Console.WriteLine($"Значение f: {f:F4}");
 
             // Проверки на допустимые значения для второй формулы
             if (x + a < 0)
@@ -74,7 +72,7 @@ namespace SolveLab1
             }
 
             double z = Math.Exp(-c * x) * (numerator / denominator);
-            Console.WriteLine($"Значение z: {z}");
+            Console.WriteLine($"Значение z: {z:F4}");
         }
     }
 }
