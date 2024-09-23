@@ -11,7 +11,7 @@
 2. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/YourNickname/SolveLabs.git
+   git clone https://github.com/LerkOFF/SolveLabs.git
    ```
 
 3. Перейдите в директорию проекта:
